@@ -39,9 +39,9 @@ const CretePost = ()=>{
    const postDetails = ()=>{
        const data = new FormData()
        data.append("file",image)
-       data.append("upload_preset","new-insta")
-       data.append("cloud_name","cnq")
-       fetch("https://api.cloudinary.com/v1_1/cnq/image/upload",{
+       data.append("upload_preset","restaurant-new")
+       data.append("cloud_name","dr8xbm5ja")
+       fetch("https://api.cloudinary.com/v1_1/dr8xbm5ja/image/upload",{
            method:"post",
            body:data
        })
